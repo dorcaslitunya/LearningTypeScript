@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        //if using babel or another compatibility tool use esnext- stripe out all of type metadata and then pass rest of JS code
+        //tells the typescript compiler which ECMAScript version the code it outputs must be compatible with
+
+        //choose this if you're only using typescript
+
+        "target": "ES5" ,
+
+        //tells the TS compiler where it should save transpiled JS produced
+        "outDir": "dist"
+    
+    }
+}
